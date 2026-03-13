@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Align One Item at Bottom</title>
+
+<style>
+.container{
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+    align-items: flex-start;   /* All items at top */
+}
+
+.box{
+    width: 100px;
+    height: 80px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.special{
+    align-self: flex-end;   /* Move this item to bottom */
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="box">Box 1</div>
+    <div class="box special">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+</body>
+</html>
