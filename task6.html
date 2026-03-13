@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flex Wrap Example</title>
+
+<style>
+.container{
+    display: flex;
+    flex-wrap: wrap;   /* Items move to next line automatically */
+    border: 2px solid black;
+    width: 400px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+</div>
+
+</body>
+</html>
